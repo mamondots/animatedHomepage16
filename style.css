@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    position: relative;
+    width:100%;
+    height:100vh;
+    background-color:#fff;
+}
+.heroPage{
+    position: relative;
+    width:100%;
+    height:92vh;
+    background-image:linear-gradient(90deg, #0c987d, #2ece7a);
+}
+.custom-shape-divider-bottom-1671777830 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1671777830 svg {
+    position: relative;
+    display: block;
+    width: calc(132% + 1.3px);
+    height: 194px;
+}
+
+.custom-shape-divider-bottom-1671777830 .shape-fill {
+    fill: #FFFFFF;
+}
+header{
+    position: relative;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:30px 80px;
+}
+.logo img{
+    position: relative;
+    width:40%;
+}
+.menu{
+    position: relative;
+    width:100%;
+    display:flex;
+}
+.menu ul{
+    position: relative;
+    display:flex;
+    left:-12vh;
+}
+.menu ul li{
+    list-style:none;
+}
+.menu ul li a{
+    text-decoration:none;
+    font-size:16px;
+    text-transform: capitalize;
+    color:#fff;
+    margin:0 16px;
+    cursor: pointer;
+    transition:0.3s;
+}
+.menu ul li a:hover{
+    color:#262626;
+}
+.menu ul li a i{
+    font-size:14px;
+}
+.contactPart i{
+    font-size:16px;
+    color:#fff;
+    margin:0 8px;
+    cursor: pointer;
+}
+.contactPart a{
+    position: absolute;
+    right:-12px;
+    top:-5px;
+    text-decoration:none;
+    font-size:16px;
+    color:#fff;
+    padding:3px 20px;
+    border:1px solid #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius:25px;
+    transition:0.3s;
+}
+.contactPart a:hover{
+    background-color:#fff;
+    color:#0c987d;
+}
+.hiddenMenu{
+    position: absolute;
+    top:30px;
+    left:63vh;
+    width:260px;
+    height:280px;
+    background-color:#07937c;
+    z-index:999;
+    transform:translateX(20px);
+    opacity:0;
+    visibility:hidden;
+}
+.menu ul li:hover .hiddenMenu{
+    transform:translateX(0px);
+    opacity:1;
+    visibility: visible;
+}
+.hiddenMenu ul{
+    position: relative;
+    top:20px;
+    left:20px;
+    display:flex;
+    flex-direction: column;
+}
+.hiddenMenu ul li{
+    margin:8px 0;
+}
+.hiddenMenu ul li a{
+    color:#fff;
+    font-size:15px;
+    font-weight:600;
+}
+.content{
+    position: relative;
+    display:flex;
+    top:25px;
+}
+.infoPart{
+    position: relative;
+    top:80px;
+    padding:0 80px;
+    z-index:2;
+}
+.infoPart h1{
+    font-size:2.5rem;
+    font-weight:700;
+    color:#fff;
+}
+.infoPart .btns{
+    position: relative;
+    top:40px;
+    left:-8px;
+}
+.infoPart .btns a{
+    position: relative;
+    text-decoration:none;
+    font-size:16px;
+    text-transform: uppercase;
+    padding:12px 35px;
+    background-color:#e10a0d;
+    color:#fff;
+    border-radius:25px;
+    margin:0 8px;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    transition:0.3s;
+}
+.infoPart .btns a:hover{
+    box-shadow:5px 5px 15px rgba(0,0,0,0.3);
+}
+.infoPart .btns .btn02{
+    background-color:transparent;
+    border:1px solid #fff;
+    transition:0.5s;
+}
+.infoPart .btns .btn02:hover{
+    background-color:#fff;
+    color:#0c987d;
+}
+.imgContent{
+    position: absolute;
+    top:5vh;
+    right:70vh;
+    z-index:2;
+}
+.imgContent img{
+    width:230%;
+}
+
